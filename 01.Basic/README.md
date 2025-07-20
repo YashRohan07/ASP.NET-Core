@@ -12,4 +12,5 @@ In this step:
 ---
 <img width="1366" height="731" alt="2" src="https://github.com/user-attachments/assets/9041fa1e-14a1-4713-ba10-8ed193118c3e" />
 ---
+**API is working**
 <img width="400" height="165" alt="3" src="https://github.com/user-attachments/assets/395540b9-ab53-4635-83e1-95e57af6a8a2" />
