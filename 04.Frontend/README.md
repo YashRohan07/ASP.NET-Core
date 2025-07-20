@@ -34,26 +34,16 @@ The `app.js` file handles all core dynamic behavior for the frontend:
 * Handles live search, filtering by status, and sorting by age through dropdowns and input fields.
 * Prompts a confirmation dialog before deleting any user to prevent accidental deletions.
 
+## `index.html` file creation
 <img width="937" height="653" alt="11" src="https://github.com/user-attachments/assets/47ab1412-db94-461b-80af-d4e1a44f01ce" />
-
+## `app.js` file creation
 <img width="936" height="653" alt="12" src="https://github.com/user-attachments/assets/ff528e77-7204-478e-bfee-6baa08024ebc" />
-
+## `styles.css` file creation
 <img width="939" height="648" alt="13" src="https://github.com/user-attachments/assets/3e4e53d9-895b-40bf-b4e2-757a88f53746" />
 
 
 
-## File Structure
-UserManagement
- - ├── Controllers/         # ASP.NET Core API controllers (handle User CRUD operations)
- - ├── Data/                # Entity Framework Core DbContext and configuration
- - ├── Migrations/          # EF Core migrations for database schema evolution
- - ├── Models/              # Data models (User entity and any DTOs)
- - ├── wwwroot/             # Static frontend files served by ASP.NET Core
- - │   ├── index.html       # Main HTML page (User form, search bar, and user table)
- - │   ├── app.js           # JavaScript logic for API calls, rendering, and interaction
- - │   └── styles.css       # Custom CSS for styling and layout
- - ├── appsettings.json     # Application configuration (e.g., database connection string)
- - ├── Program.cs           # Main entry point for the ASP.NET Core application
+
 
 
 
