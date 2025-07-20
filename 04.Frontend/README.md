@@ -68,9 +68,10 @@ The `app.js` file handles all core dynamic behavior for the frontend:
 
 <img width="1366" height="768" alt="Screenshot (735)" src="https://github.com/user-attachments/assets/e900fd68-ac3c-48b4-99b5-af0d7b76fdae" />
 
-## Delete User
+## Add User
 <img width="1366" height="768" alt="Screenshot (736)" src="https://github.com/user-attachments/assets/e7b80694-7f75-4dfa-89ab-3d98a59c698c" />
 
+## Delete User
 <img width="1366" height="768" alt="Screenshot (737)" src="https://github.com/user-attachments/assets/267edb17-eecc-4043-99ee-088c2fa44026" />
 
 <img width="1366" height="768" alt="Screenshot (738)" src="https://github.com/user-attachments/assets/72d6b8f1-4abe-4400-8fe9-d29a4bb4c9d1" />
