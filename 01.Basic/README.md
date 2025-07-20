@@ -1,4 +1,4 @@
-# 01.Basic — ASP.NET Core Web API Setup
+# ASP.NET Core Web API Setup
 
 This module sets up a **basic ASP.NET Core Web API** project for the **User Management System**, using:
 - **.NET SDK Version:** 8.0.x (`8.0.412` was used)
