@@ -1,5 +1,3 @@
-## Progress Overview
-
 ## Installed essential NuGet packages:
 
   * `Microsoft.EntityFrameworkCore.SqlServer` — SQL Server database provider.
