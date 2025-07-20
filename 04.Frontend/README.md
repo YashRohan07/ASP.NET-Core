@@ -42,6 +42,18 @@ The `app.js` file handles all core dynamic behavior for the frontend:
 
 
 
+## File Structure
+UserManagement
+ ├── Controllers/         # ASP.NET Core API controllers (User CRUD logic)
+ ├── Data/                # Entity Framework Core database context and configuration
+ ├── Migrations/          # EF Core migrations for database schema
+ ├── Models/              # Data models (User entity, DTOs)
+ ├── wwwroot/             # Static frontend files
+ │   ├── index.html       # Main HTML page (form + search + table)
+ │   ├── app.js           # All JavaScript logic (API calls, rendering, event handling)
+ │   └── styles.css       # Custom styling for layout and components
+ ├── appsettings.json     # Application configuration (DB connection, settings)
+ ├── Program.cs           # ASP.NET Core application entry point
 
 
 
