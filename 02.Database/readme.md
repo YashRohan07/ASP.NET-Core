@@ -41,7 +41,9 @@ Executed EF Core CLI commands:
   * Created the `Migrations` folder.
   * Generated the SQL Server database `UserManagementDb`.
   * Created the `Users` table matching the defined schema.
+
  
+<img width="1007" height="573" alt="Capture" src="https://github.com/user-attachments/assets/d2f6ae71-337f-476f-911a-2b6667e382be" />
 
 
 
