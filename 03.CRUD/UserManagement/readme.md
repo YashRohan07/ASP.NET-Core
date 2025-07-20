@@ -1,11 +1,11 @@
-## **Project Details**
+## Project Details
 
 * **Framework:** ASP.NET Core Web API (.NET 8.0)
 * **Database:** SQL Server
 * **ORM:** Entity Framework Core
 
-
-Here i have added `Age` column, Then for updating the Database:
+##
+Here i have added `Age` column later, Then for updating the Database:
 - dotnet ef migrations add AddAgeToUser
 - dotnet ef database update
 
