@@ -1,13 +1,13 @@
 ## Progress Overview
 
-### Installed essential NuGet packages:
+## Installed essential NuGet packages:
 
   * `Microsoft.EntityFrameworkCore.SqlServer` — SQL Server database provider.
   * `Microsoft.EntityFrameworkCore.Tools` — for migrations and design-time commands.
   * `Swashbuckle.AspNetCore` — Swagger/OpenAPI support.
   * `Microsoft.AspNetCore.OpenApi` — OpenAPI endpoint integration.
 
-### User Model Implementation
+## User Model Implementation
 
 * Defined the `User` class in the `UserManagement.Models` namespace with the following properties:
 
@@ -18,7 +18,7 @@
   * `Address` — Required.
   * `IsActive` — Boolean flag with a default value of `true` to indicate active/inactive status.
 
-### Database Context Setup
+## Database Context Setup
 
 * Created `AppDbContext` in the `UserManagement.Data` namespace:
 
@@ -26,17 +26,16 @@
   * Contains a `DbSet<User>` named `Users`.
   * Registered via dependency injection in `Program.cs`.
 
-### Database Connection Configuration
+## Database Connection Configuration
 
 * Added the connection string in `appsettings.json`:
 * Configured `AppDbContext` in `Program.cs` to use SQL Server provider with the above connection string.
 
-### Entity Framework Core Migrations
+## Entity Framework Core Migrations
 
-* Executed EF Core CLI commands:
+Executed EF Core CLI commands:
 - dotnet ef migrations add InitialCreate
 - dotnet ef database update
-```
 
 * This process:
   * Created the `Migrations` folder.
