@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>User Management</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <h1>User Management</h1>
+
+    <div class="main-container">
+        <!-- Left Panel: Search + Table -->
+        <div class="left-panel">
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search by name/email" />
+                <select id="statusFilter">
+                    <option value="">All</option>
+                    <option value="active">Active</option>
+                    <option value="inactive">Inactive</option>
+                </select>
+                <select id="sortOrder">
+                    <option value="">Default</option>
+                    <option value="age_asc">Age Ascending</option>
+                    <option value="age_desc">Age Descending</option>
+                </select>
+                <button id="searchBtn">Search</button>
+            </div>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Age</th>
+                            <th>Phone</th>
+                            <th>Address</th>
+                            <th>Status</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="userTableBody"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Right Panel: Add User Form -->
+        <div class="right-panel">
+            <div class="card">
+                <h3 id="formTitle">User Registration</h3>
+                <form id="userForm">
+                    <input type="hidden" id="userId" />
+                    <input type="text" id="name" placeholder="Name" required />
+                    <input type="email" id="email" placeholder="Email" required />
+                    <input type="number" id="age" placeholder="Age" required />
+                    <input type="text" id="phone" placeholder="Phone Number" required />
+                    <input type="text" id="address" placeholder="Address" required />
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="isActive" checked /> Active
+                    </label>
+                    <button type="submit">Save</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

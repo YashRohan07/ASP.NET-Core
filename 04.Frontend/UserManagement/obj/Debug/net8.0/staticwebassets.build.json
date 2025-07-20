@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "w87q5E29v1T6C4RCK4I+js5v5rXeKaHX0iIldfT1tj8=",
+  "Source": "UserManagement",
+  "BasePath": "_content/UserManagement",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "UserManagement\\wwwroot",
+      "Source": "UserManagement",
+      "ContentRoot": "C:\\Users\\Rohan\\Desktop\\UserManagementSystem\\UserManagement\\wwwroot\\",
+      "BasePath": "_content/UserManagement",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Rohan\\Desktop\\UserManagementSystem\\UserManagement\\wwwroot\\app.js",
+      "SourceId": "UserManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Rohan\\Desktop\\UserManagementSystem\\UserManagement\\wwwroot\\",
+      "BasePath": "_content/UserManagement",
+      "RelativePath": "app.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.js"
+    },
+    {
+      "Identity": "C:\\Users\\Rohan\\Desktop\\UserManagementSystem\\UserManagement\\wwwroot\\index.html",
+      "SourceId": "UserManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Rohan\\Desktop\\UserManagementSystem\\UserManagement\\wwwroot\\",
+      "BasePath": "_content/UserManagement",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Rohan\\Desktop\\UserManagementSystem\\UserManagement\\wwwroot\\styles.css",
+      "SourceId": "UserManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Rohan\\Desktop\\UserManagementSystem\\UserManagement\\wwwroot\\",
+      "BasePath": "_content/UserManagement",
+      "RelativePath": "styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\styles.css"
+    }
+  ]
+}
