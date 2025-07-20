@@ -5,11 +5,7 @@
 * **ORM:** Entity Framework Core
 
 
----
-
-
-* Here i have added `Age` column:
-Then for updating the Database:
+Here i have added `Age` column, Then for updating the Database:
 - dotnet ef migrations add AddAgeToUser
 - dotnet ef database update
 
