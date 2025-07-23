@@ -19,7 +19,7 @@ In this step:
 
 # 🚀 ASP.NET Core Project Templates Catalog
 
-## 📋 Table of Contents
+## Table of Contents
 - [API Templates](#-api-templates)
 - [Web App Templates](#-web-app-templates)
 - [Full-Stack Templates](#-full-stack-templates)
