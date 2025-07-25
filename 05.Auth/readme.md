@@ -1,4 +1,4 @@
-**ASP.NET Core 6 User Management API** 
+## ASP.NET Core 6 User Management API
 
 - JWT-based **stateless authentication**
 - **ASP.NET Core Identity** for user & role management
