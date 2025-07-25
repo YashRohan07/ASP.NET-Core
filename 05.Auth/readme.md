@@ -1,4 +1,4 @@
-## ASP.NET Core 6 User Management API
+## ASP.NET Core User Management API
 
 - JWT-based **stateless authentication**
 - **ASP.NET Core Identity** for user & role management
@@ -30,20 +30,37 @@
 
 ```
 ├── Controllers
-│   ├── AuthController.cs       # Handles login/register
-│   ├── UsersController.cs      # Handles user CRUD
+│   ├── AuthController.cs          # Handles login & registration
+│   ├── UsersController.cs         # Handles user CRUD endpoints
+│
 ├── Models
-│   ├── ApplicationUser.cs      # Extends IdentityUser
+│   ├── ApplicationUser.cs         # Extends IdentityUser with custom fields
+│
 ├── DTOs
-│   ├── RegisterDto.cs
-│   ├── LoginDto.cs
-│   ├── UserDto.cs
+│   ├── RegisterDto.cs             # DTO for user registration
+│   ├── LoginDto.cs                # DTO for login requests
+│   ├── UserDto.cs                 # DTO for user data transfer
+│   ├── UserUpdateDto.cs           # DTO for updating user info
+│
 ├── Middleware
-│   ├── ActiveUserMiddleware.cs # Role/Status checks
+│   ├── ActiveUserMiddleware.cs    # Checks user status & enforces role rules
+│
 ├── Data
-│   ├── SeedData.cs             # Seeds roles & admin user
-├── Program.cs                  # Startup config
-├── appsettings.json            # Configs & secrets
+│   ├── AppDbContext.cs            # EF Core DbContext
+│   ├── AppDbContextFactory.cs     # Factory for EF migrations
+│   ├── SeedData.cs                # Seeds default roles & admin user
+│
+├── Mapping
+│   ├── MappingProfile.cs          # AutoMapper configuration
+│
+├── wwwroot
+│   ├── index.html                 # Optional static landing page
+│   ├── app.js                     # Optional static JavaScript
+│   ├── styles.css                 # Optional static CSS
+│
+├── Program.cs                     # Startup configuration
+├── appsettings.json               # App configs & secrets
+
 ````
 
 ---
