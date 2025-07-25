@@ -207,7 +207,7 @@ https://localhost:<port>/swagger
 POST /api/auth/register
 Body:
 {
-  "name": "John Doe",
+  "name": "John",
   "email": "john@example.com",
   "password": "John123$",
   "age": 30,
