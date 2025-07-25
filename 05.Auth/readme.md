@@ -240,6 +240,106 @@ Authorization: Bearer <jwt-token>
 
 ---
 
+
+---
+
+# Database: `UserManagementDb` (SQL Server Management Studio)
+
+<img width="1365" height="700" alt="1" src="https://github.com/user-attachments/assets/c2134dd5-df02-4306-bbf9-46394a49e803" />
+
+<img width="1366" height="577" alt="2" src="https://github.com/user-attachments/assets/b881df4d-4093-4bb7-a9a8-f5d7e67ee2ec" />
+
+<img width="1366" height="673" alt="3" src="https://github.com/user-attachments/assets/8fe72bf8-cce9-4d18-b936-303b8c7ec732" />
+
+---
+
+# Swagger UI — Interactive API Documentation
+
+<img width="1353" height="689" alt="4" src="https://github.com/user-attachments/assets/ef650fe2-7a70-445d-bfd3-735de2b2ec53" />
+
+---
+
+# Registering a New User
+
+<img width="942" height="520" alt="5" src="https://github.com/user-attachments/assets/b2be28f0-a0fd-4f0a-be37-9580f8f92068" />
+
+---
+
+# User Login — Generate JWT Token
+
+<img width="939" height="585" alt="6" src="https://github.com/user-attachments/assets/aac88328-b170-40eb-b3ab-7c9c445373e3" />
+
+---
+
+# Active User — Retrieving Own Profile
+
+<img width="938" height="552" alt="7" src="https://github.com/user-attachments/assets/363d2c42-3463-43b5-9650-c14077b3e3c0" />
+
+---
+
+# Active User — Updating Own Profile
+
+<img width="941" height="566" alt="8" src="https://github.com/user-attachments/assets/bc35805c-cc39-461e-b79a-969f116904a0" />
+
+---
+
+# User Access Denied — Restricted Endpoint
+
+<img width="937" height="455" alt="9" src="https://github.com/user-attachments/assets/627406c4-598b-4208-8fd6-2bcb931bd6e9" />
+
+---
+
+# User Access Denied — Restricted Action
+
+<img width="939" height="512" alt="10" src="https://github.com/user-attachments/assets/d4d0e869-8fc7-485e-83ee-4cc55ad09433" />
+
+---
+
+# Admin Login — Generate Admin JWT
+
+<img width="937" height="560" alt="11" src="https://github.com/user-attachments/assets/3f19fed8-01dd-48bc-8c36-19211b2bd432" />
+
+---
+
+# Admin — Get All Users
+
+<img width="934" height="586" alt="12" src="https://github.com/user-attachments/assets/49ad3ab7-f6c4-438f-8d6c-53ff86f10f63" />
+
+---
+
+# Admin — Create New User
+
+<img width="935" height="582" alt="13" src="https://github.com/user-attachments/assets/0c263033-2697-40f4-b1f3-d6e8c227606e" />
+
+---
+
+# Admin — Update Any User by ID
+
+<img width="935" height="588" alt="14" src="https://github.com/user-attachments/assets/40e0e530-4d52-4d1f-8a1f-76a395fb1454" />
+
+---
+
+# Admin — Soft Delete User by ID
+
+<img width="938" height="412" alt="15" src="https://github.com/user-attachments/assets/4e71cbfe-50f9-444c-af19-02538f05802f" />
+
+<img width="940" height="437" alt="16" src="https://github.com/user-attachments/assets/60cc7c85-06c3-45ff-8d6f-f9588130b2ff" />
+
+---
+
+# Admin — Restore Deleted User
+
+<img width="935" height="545" alt="17" src="https://github.com/user-attachments/assets/4ce13f9f-542c-4f0f-8dda-c460fdd95bb7" />
+
+---
+
+# Inactive User — Login Blocked
+
+<img width="933" height="443" alt="20" src="https://github.com/user-attachments/assets/944d16ce-e2ab-4d66-8a80-6b09e2f7420b" />
+
+---
+
+
 ---
 
 ## Common Commands
@@ -252,4 +352,5 @@ Authorization: Bearer <jwt-token>
 | `dotnet ef database update`       | Apply migration to DB  |
 
 ---
+
 
